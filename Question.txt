@@ -1,0 +1,36 @@
+Write a PLSQL package that prints the sales made by the different branches. The package should print the sales report based on the month and the location where the sales have
+been made (The branch). The items that have been sold in the different locations were sold in USD, to convert in FRW where needed, use the exchange
+rate of USD 1952. Your O/P should exactly have this Format. None of the values generated in the report is hard coded. The report must display the total amount of sales made in 
+other branches in FRW using the exchange rate that has been provided above. A sample O/P has been provided for your reference.
+
+Remark: Use all the possible database development practice taught in class to solve this question.
+
+************************************************************
+This is a report of the sales made in Mali, March - 2023
+************************************************************
+Branch: Mali
+Manager: Iris Joanna
+No of Items sold: 10
+No of Customers: 2
+
+Break down of items sold:
+
+2 Computers
+Dell
+
+8 Phones
+Techno C9
+
+The price of 2 Dell Computers: USD 700.9
+The price of 8 Techno C9: USD 963.2
+
+Total sales made in Mali in the Month of January: USD 1,664.1
+Total sales made in Mali in the Month of January: FRW 3,248,323.2 (Exchange rate: $1952)
+
+Sales in other Branches in FRW (Exchange rate: $1952)
+***********************************************************
+
+Total sales made in Rwanda in the Month of January: FRW ...
+Total sales made in Uganda in the Month of January: FRW ...
+Total sales made in Togo in the Month of January: FRW ...
+Total sales made in Chad in the Month of January: FRW ...

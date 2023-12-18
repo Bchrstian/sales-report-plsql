@@ -1,0 +1,51 @@
+SOLUTION OF THE PRE-EXAM QUESTION OF SALES REPORT
+===================================================
+
+Breaking down the package into multiple functions and a final procedure which  is a good approach. Each function can handle a specific aspect of the report generation process. Based on our requirements, we can create functions to:
+
+	1. Show items sold in a given branch and month.
+	2. Calculate the total sales in USD for a given branch and month && Convert the total sales from USD to FRW using the exchange rate.
+	3. Look at sales in other branches and convert them to FRW.
+
+
+After creating these functions, we can then create a procedure to call these functions and print the final report.
+
+
+let's outline the specifications for the PL/SQL package with all four functions. We'll define the functions to cover the different aspects of the sales report:
+
+				1. show_items_sold Function:
+
+Input Parameters: Branch Name (p_branch_name), Month (p_month)
+
+Output: A formatted string listing the items sold in the specified branch and month.
+
+				2. calculate_total_sales Function:
+
+Input Parameters: Branch Name (p_branch_name), Month (p_month)
+
+Output: Total sales amount in USD for the specified branch and month.
+
+				3. convert_to_rwf Function:
+
+Input Parameters: Amount in USD (p_usd_amount)
+Output: Equivalent amount in FRW based on the provided exchange rate.
+
+				4. show_other_branches_sales Function:
+
+Input Parameters: Month (p_month)
+
+Output: A formatted string listing the total sales in FRW for all branches except the specified branch and month.
+
+				5. print_sales_report Procedure:
+
+Input Parameters: Branch Name (p_branch_name), Month (p_month)
+
+Output: Prints the complete sales report using the other functions.
+
+
+
+
+Now, let's translate these specifications into the PL/SQL package:
+
+
+
